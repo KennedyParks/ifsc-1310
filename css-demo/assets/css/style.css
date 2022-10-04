@@ -1,0 +1,19 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /*---------global styles-------------*/
+  
+ body {
+    background-color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+  }
+  header.primary{
+    background-color:red;
+  }
