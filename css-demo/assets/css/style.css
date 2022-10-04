@@ -11,9 +11,16 @@ html {
   /*---------global styles-------------*/
   
  body {
-    background-color: aquamarine;
-    font-family: 'Roboto', sans-serif;
+    background-color: #cfedcb;
+    font-family: 'Open Sans', sans-serif;
   }
   header.primary{
-    background-color:red;
+    background-color: #edebc5;
+  }
+  p {
+color: #6E7175
+
+  }
+  h2 {
+    color: rgb(78, 154, 220)
   }
