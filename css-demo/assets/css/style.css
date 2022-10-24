@@ -76,6 +76,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   padding: 40px;
   /* top/bottom | left/light */
   padding: 20px 40px;
+  
 }
 
 header.primary h1{
@@ -225,7 +226,7 @@ aside .container{
 }
 
 aside article.widget {
-  width:45%; 
+  width: 500px; 
 }
 
 aside article.widget a:last-of-type {
@@ -338,4 +339,20 @@ display:block;
 font-size:1rem;
 text-align:right;
 margin-top:20px;
+}
+
+#back-to-top a{
+  color:#ffffff;
+  margin-top: 10px;
+  text-decoration:none;
+  background-color: green;
+  padding:8px 16px;
+  border-radius:20px;
+  transition:.5s;
+  border: 1px rgba(0,0,0,.8);
+  
+}
+#back-to-top a:hover{
+  background-color:black;
+  box-shadow:0 8px 16px rgba(0,0,0,.3);
 }
