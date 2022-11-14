@@ -1,0 +1,27 @@
+body{
+    background: rgb(100,220,164);
+background: linear-gradient(90deg, rgba(100,220,164,1) 0%, rgba(255,255,255,1) 50%, rgba(224,75,161,1) 100%);
+}
+
+h1{
+    color: grey;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.content{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+    border: 5px solid rgb(104, 101, 95)
+    ;
+    
+  }
+
+  img:hover{
+    box-shadow: 20px 20px 30px rgb(60, 57, 57);
+    transition-duration: .5s;
+  }
