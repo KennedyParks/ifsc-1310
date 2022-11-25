@@ -83,7 +83,7 @@ ul {
 
 .bg-img {
   /* The image used */
-  background-image: url(/space-x/assets/img/spacex-hero.jpg);
+  background-image: url(/../space-x/assets/img/spacex-hero.jpg);
   min-height: 850px;
   
   
@@ -176,11 +176,5 @@ ul {
     color: white;
     font-family: 'Poppins';
     text-shadow: 2px 2px 8px #000000;
-  }
-
-  .bg-img{
-    background-image: url(/space-x/assets/img/spacex-hero.jpg);
-    min-height: 850px;
-    
   }
 }
