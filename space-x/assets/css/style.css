@@ -19,6 +19,7 @@
   left: 250px;
   color: white;
   font-family: 'Poppins';
+  z-index: 1;
 }
 
 
@@ -32,11 +33,28 @@
   animation: 2s anim-lineUp ease-out;
   animation-fill-mode: forwards;
   position: absolute;
-  top: 240px;
+  top: 220px;
   left: 250px;
   color: white;
   font-family: 'Poppins';
+  z-index: 1;
+  position: absolute;
 }
+
+.btn {
+  border: 2px solid white;
+  background-color: 00FFFFFF;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+}
+
+/* Animation */
 @keyframes anim-lineUp {
   0% {
     opacity: 0;
@@ -111,4 +129,58 @@ ul {
 .topnav a:hover {
   text-decoration: underline;
   
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1403px) {
+  .lineUp {
+    animation: 2s anim-lineUp ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    color: white;
+    font-family: 'Poppins';
+  }
+
+  .satisfaction{
+    animation: 6s anim-lineUp ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    color: white;
+    font-family: 'Poppins';
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .lineUp {
+    animation: 2s anim-lineUp ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    color: white;
+    font-family: 'Poppins';
+    text-shadow: 2px 2px 8px #000000;
+  }
+
+  .satisfaction{
+    animation: 6s anim-lineUp ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    color: white;
+    font-family: 'Poppins';
+    text-shadow: 2px 2px 8px #000000;
+  }
+
+  .bg-img{
+    background-image: url("/space-x/assets/img/spacex-hero.jpg");
+    min-height: 850px;
+    
+  }
 }
