@@ -83,7 +83,7 @@ ul {
 
 .bg-img {
   /* The image used */
-  background-image: url(/../space-x/assets/img/spacex-hero.jpg);
+  background: #000 center/cover url(../img/spacex-hero.jpg) no-repeat;
   min-height: 850px;
   
   
