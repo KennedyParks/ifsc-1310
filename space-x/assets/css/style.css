@@ -47,7 +47,24 @@ p{
 .btn {
   border: 2px solid white;
   background-color: 00FFFFFF;
+  font-family: 'Poppins';
+  text-decoration: none;
   color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+}
+
+.btn:hover {
+  border: 2px solid gray;
+  background-color: 00FFFFFF;
+  font-family: 'Poppins';
+  text-decoration: none;
+  color: gray;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -84,6 +101,14 @@ ul {
   margin: 0;
   padding: 0;
   color: red;
+}
+
+.logo{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  
 }
 
 .bg-img {
@@ -195,12 +220,13 @@ ul {
 .history{
 width: auto;
 text-align: center;
+margin-top: 30px;
 
 }
 
 .history p{
   margin: auto;
-  margin-top: 100px;
+  margin-top: 70px;
   width: 60%;
   text-align: center;
   animation: 2s anim-lineUp ease-out;
@@ -209,6 +235,30 @@ text-align: center;
     text-shadow: 2px 2px 8px #000000;
 }
 
+.missions{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+}
+
+table {
+  margin-top: 20px;
+  font-family: arial, sans-serif;
+  color: white;
+  border-collapse: collapse;
+  width: 700px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: gray;
+}
 
 /*FAQ*/
 
