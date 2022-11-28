@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+  background-color: #000;
+}
+
+.satisfaction{
+  animation: 6s anim-lineUp ease-out;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  color: white;
+  font-family: 'Poppins';
+  z-index: 1;
+}
+
+
+  h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+  }
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: white
+}
+
+ 
+.lineUp {
+  animation: 2s anim-lineUp ease-out;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: 220px;
+  left: 250px;
+  color: white;
+  font-family: 'Poppins';
+  z-index: 1;
+  position: absolute;
+}
+
+.btn {
+  border: 2px solid white;
+  background-color: 00FFFFFF;
+  font-family: 'Poppins';
+  text-decoration: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+}
+
+.btn:hover {
+  border: 2px solid gray;
+  background-color: 00FFFFFF;
+  font-family: 'Poppins';
+  text-decoration: none;
+  color: gray;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+}
+
+/* Animation */
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+/* Content */
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+
+.logo{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  
+}
+
+.bg-img {
+  background: #000 center/cover url(../img/spacex-fade.png) no-repeat;
+  min-height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+  
+}
+
+
+.container {
+ width: auto;
+ margin: auto;
+  width: 20%;
+  
+}
+
+
+.topnav {
+  overflow: hidden;
+  margin: auto;
+  width: 300%;
+  
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  font-family: 'Poppins';
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+  
+}
+
+.spacer{
+  background-color: #000;
+  height: 1000px;
+  width: auto;
+}
+
+.spacer h1{
+  text-align: center;
+  padding: 50px;
+}
+
+.bar{
+  background-color: #000;
+  height: 600px;
+  width: auto;
+}
+
+.bar h1{
+  color: white;
+  position: absolute;
+  top: 900px;
+  margin-left: 60px;
+  z-index: 1;
+  
+}
+
+.dragon{
+  position: absolute;
+  height: 600px;
+  top: 850px;
+  left: 500px;
+}
+
+.interior{
+  position: absolute;
+  height: 600px;
+  left: 780px;
+}
+
+.paragraph{
+  position: absolute;
+  top: 900px;
+  width: 700px;
+  height: 200px;
+}
+
+.paragraph p{
+  color: white;
+  margin-left: 60px;
+  position: absolute;
+  top: 75px;
+}
+
+.resupply{
+  width: 600px;
+}
+
+.resupply p{
+  width: 600px;
+  position: absolute;
+  left: 70px;
+}
+
+.history{
+width: auto;
+text-align: center;
+margin-top: 30px;
+
+}
+
+.history p{
+  margin: auto;
+  margin-top: 70px;
+  width: 60%;
+  text-align: center;
+  animation: 2s anim-lineUp ease-out;
+    animation-fill-mode: forwards;
+    
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.missions{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+}
+
+table {
+  margin-top: 20px;
+  font-family: arial, sans-serif;
+  color: white;
+  border-collapse: collapse;
+  width: 700px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: gray;
+}
+
+/*FAQ*/
+
+.background {
+  background-color: black;
+  color: white;
+  width: auto;
+  overflow-x: hidden;
+}
+
+.faq-header{
+  font-size: 42px;
+  border-bottom: 1px solid #000;
+  padding: 24px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.faq-content {
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.faq-question {
+  padding: 20px 0;
+  border-bottom: 1px solid #000;
+}
+
+.panel-title {
+  font-size: 24px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+}
+
+.panel-content {
+  font-size: 20px;
+  padding: 0px 14px;
+  margin: 0 40px;
+  height: 0;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .4s ease;
+  -moz-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.panel:checked ~ .panel-content{
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+/*
+
+.plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 5;
+  font-size: 42px;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+*/
+
+.panel {
+  display: none;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1403px) {
+  .lineUp {
+    animation: 2s anim-lineUp ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    color: white;
+    font-family: 'Poppins';
+  }
+
+  .satisfaction{
+    animation: 6s anim-lineUp ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    color: white;
+    font-family: 'Poppins';
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .lineUp {
+    animation: 2s anim-lineUp ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    color: white;
+    font-family: 'Poppins';
+    text-shadow: 2px 2px 8px #000000;
+  }
+
+  .satisfaction{
+    animation: 6s anim-lineUp ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    color: white;
+    font-family: 'Poppins';
+    text-shadow: 2px 2px 8px #000000;
+  }
+}
