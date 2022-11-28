@@ -2,15 +2,11 @@
     margin: 0;
     padding: 0;
 } 
-/*
-.bg {
-    min-height:100%;
-    min-width:100%;
-    height:auto;
-    width:auto;
-    position:absolute;
+
+body{
+  background-color: #000;
 }
-*/
+
 .satisfaction{
   animation: 6s anim-lineUp ease-out;
   animation-fill-mode: forwards;
@@ -26,9 +22,16 @@
   h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    color: white;
   }
 
-  /* lineup class and keyframes */
+p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: white
+}
+
+ 
 .lineUp {
   animation: 2s anim-lineUp ease-out;
   animation-fill-mode: forwards;
@@ -73,6 +76,8 @@
   }
 }
 
+/* Content */
+
 ul {
   display: block;
   list-style-type: none;
@@ -82,24 +87,17 @@ ul {
 }
 
 .bg-img {
-  /* The image used */
-  background: #000 center/cover url(../img/spacex-hero.jpg) no-repeat;
+  background: #000 center/cover url(../img/spacex-fade.png) no-repeat;
   min-height: 850px;
-  
-  
-  
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-  /* Needed to position the navbar */
   position: relative;
   margin: auto;
+  
 }
 
-/* Position the navbar container inside the image */
+
 .container {
  width: auto;
  margin: auto;
@@ -107,15 +105,15 @@ ul {
   
 }
 
-/* The navbar */
+
 .topnav {
   overflow: hidden;
   margin: auto;
-  width: 350%;
+  width: 300%;
   
 }
 
-/* Navbar links */
+
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -130,6 +128,180 @@ ul {
   text-decoration: underline;
   
 }
+
+.spacer{
+  background-color: #000;
+  height: 1000px;
+  width: auto;
+}
+
+.spacer h1{
+  text-align: center;
+  padding: 50px;
+}
+
+.bar{
+  background-color: #000;
+  height: 600px;
+  width: auto;
+}
+
+.bar h1{
+  color: white;
+  position: absolute;
+  top: 900px;
+  margin-left: 60px;
+  z-index: 1;
+  
+}
+
+.dragon{
+  position: absolute;
+  height: 600px;
+  top: 850px;
+  left: 500px;
+}
+
+.interior{
+  position: absolute;
+  height: 600px;
+  left: 780px;
+}
+
+.paragraph{
+  position: absolute;
+  top: 900px;
+  width: 700px;
+  height: 200px;
+}
+
+.paragraph p{
+  color: white;
+  margin-left: 60px;
+  position: absolute;
+  top: 75px;
+}
+
+.resupply{
+  width: 600px;
+}
+
+.resupply p{
+  width: 600px;
+  position: absolute;
+  left: 70px;
+}
+
+.history{
+width: auto;
+text-align: center;
+
+}
+
+.history p{
+  margin: auto;
+  margin-top: 100px;
+  width: 60%;
+  text-align: center;
+  animation: 2s anim-lineUp ease-out;
+    animation-fill-mode: forwards;
+    
+    text-shadow: 2px 2px 8px #000000;
+}
+
+
+/*FAQ*/
+
+.background {
+  background-color: black;
+  color: white;
+  width: auto;
+  overflow-x: hidden;
+}
+
+.faq-header{
+  font-size: 42px;
+  border-bottom: 1px solid #000;
+  padding: 24px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.faq-content {
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.faq-question {
+  padding: 20px 0;
+  border-bottom: 1px solid #000;
+}
+
+.panel-title {
+  font-size: 24px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+}
+
+.panel-content {
+  font-size: 20px;
+  padding: 0px 14px;
+  margin: 0 40px;
+  height: 0;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .4s ease;
+  -moz-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.panel:checked ~ .panel-content{
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+/*
+
+.plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 5;
+  font-size: 42px;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+*/
+
+.panel {
+  display: none;
+}
+
 
 /* Media Queries */
 
