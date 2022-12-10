@@ -3,10 +3,13 @@
 
 
 .paragraph-header{
+  animation: 2s anim-lineUp ease-out;
+  animation-fill-mode: forwards;
   color: white;
   position: absolute;
   top: 30px;
   margin-left: 60px; 
+  text-shadow: 2px 2px 8px #000;
 }
 
 .paragraph-text{
@@ -39,7 +42,7 @@ font-family: 'Poppins', sans-serif;
 font-weight: 400;
 color: white
 }
-
+/*
 header nav ul li a{
   font-family: 'Poppins';
   font-size: 1.5rem;
@@ -49,6 +52,41 @@ header nav ul li a{
   flex-direction: row;
   justify-content: space-evenly;
 }
+*/
+
+nav {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+nav ul {
+  text-align: center;
+  
+  
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  text-transform:uppercase;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover{
+  color: lightgrey;
+}
+
+
+
+
 
 #first-section-image {
   background: #000 center/cover url(../img/spacex-fade.png) no-repeat;
@@ -86,6 +124,8 @@ header nav ul li a{
 }
 
 .btn {
+  animation: 9s anim-lineUp ease-out;
+  animation-fill-mode: forwards;
   border: 2px solid white;
   background-color: 00FFFFFF;
   font-family: 'Poppins';
@@ -121,12 +161,15 @@ header nav ul li a{
   position: absolute;
   background-color: rgba(0,0,0,0.5);
   display: block;
+  margin-top: 100px;
   
 }
 
 .second-section-image{
   float: right;
 }
+
+
 
 #third-section{
   background-color: #000;
@@ -142,7 +185,7 @@ header nav ul li a{
  text-align: center;
  padding: 20px;
  padding-top: 300px;
- 
+ text-shadow: 2px 2px 8px #000;
 }
 
 #third-section h2{
@@ -152,6 +195,7 @@ header nav ul li a{
   left: 70px;
   display: block;
   padding-top: 30px;
+  text-shadow: 2px 2px 8px #000;
  }
 
  #third-section h3{
@@ -162,7 +206,7 @@ header nav ul li a{
   position: relative;
   text-align: center;
   display: block;
-  
+  text-shadow: 2px 2px 8px #000;
   
  }
 
@@ -172,7 +216,14 @@ header nav ul li a{
   left: 70px;
   padding-top: 20px;
   display: block;
-  
+  z-index: 1;
+  text-shadow: 2px 2px 8px #000;
+}
+
+#third-section img{
+  clear: both;
+  position: absolute;
+  right: 0;
 }
 
 .footer{
@@ -193,6 +244,8 @@ header nav ul li a{
 }
 
 #history h1{
+ animation: 2s anim-lineUp ease-out;
+ animation-fill-mode: forwards;
  color: white;
  font-size: 3rem;
  text-align: center;
@@ -201,11 +254,20 @@ header nav ul li a{
 }
 
 #history p{
+  animation: 2s anim-lineUp ease-out;
+  animation-fill-mode: forwards;
   width: 600px;
   position: relative;
   left: 70px;
   padding-top: 20px;
   display: block;
+  text-shadow: 2px 2px 8px #000;
+}
+
+#history img{
+  float: left;
+  position: absolute;
+  right: 0;
 }
 
 #recent-missions h1{
@@ -223,6 +285,8 @@ header nav ul li a{
 }
 
 #frequently-asked-questions h1{
+ animation: 2s anim-lineUp ease-out;
+ animation-fill-mode: forwards;
  color: white;
  font-size: 3rem;
  text-align: center;
@@ -247,6 +311,8 @@ header nav ul li a{
 }
 
 .faq-question {
+  animation: 2s anim-lineUp ease-out;
+  animation-fill-mode: forwards;
   padding: 20px 0;
   border-bottom: 1px solid #000;
 }
@@ -312,6 +378,7 @@ header nav ul li a{
     transform: translateY(0%);
   }
 }
+
 
 /* Content */
 
